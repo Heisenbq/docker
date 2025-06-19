@@ -65,4 +65,4 @@ jobs:
              podman rm myapp || true && \
              podman run -d --name myapp \
              --network=host \
-             myapp:final"
+             myapp:final" 
